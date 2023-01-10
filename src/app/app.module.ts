@@ -11,13 +11,15 @@ import { TableComponent } from './components/table/table.component';
 import { NavbarComponent } from './components/navbar/navbar.component'
 import { FormsModule } from '@angular/forms';
 import { DialogInfoComponent } from './components/dialog-info/dialog-info.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     NavbarComponent,
-    DialogInfoComponent
+    DialogInfoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

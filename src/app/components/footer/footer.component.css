@@ -1,0 +1,12 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  height: auto;
+  padding: auto;
+}
+
+.footer h5{
+  margin-top: 10px;
+}
