@@ -1,0 +1,45 @@
+<div class="dialog">
+  <div class="tableScale">
+    <table id="scale">
+      <tr>
+        <th>Scale US AQI</th>
+        <th>Scale PM2.5</th>
+        <th>Description</th>
+      </tr>
+      <tr >
+        <td class="good">Good [0-50]</td>
+        <td class="good">Good [0-12.0]</td>
+        <td class="good">Air quality is satisfactory and poses little or no risk.</td>
+      </tr>
+      <tr >
+        <td class="Moderate">Moderate [51-100]</td>
+        <td class="Moderate">Moderate [12.1-35.4]</td>
+        <td class="Moderate">Sensitive individuals should avoid outdoor activity as they may experience respiratory symptoms.</td>
+      </tr>
+      <tr >
+        <td class="UnhealthySG">Unhealthy for Sensitive Groups [101-150]</td>
+        <td class="UnhealthySG">Unhealthy for Sensitive Groups [35.5-55.4]</td>
+        <td class="UnhealthySG">General public and sensitive individuals in particular are at risk to experience irritation and respiratory problems.</td>
+      </tr>
+      <tr >
+        <td class="Unhealthy">Unhealthy [151-200]</td>
+        <td class="Unhealthy">Unhealthy [55.5-150.4]</td>
+        <td class="Unhealthy">Increased likelihood of adverse effects and aggravation to the heart and lungs among general public.</td>
+      </tr>
+      <tr >
+        <td class="VeryUnhealthy">Very Unhealthy [201-300]</td>
+        <td class="VeryUnhealthy">Very Unhealthy [150.5-250.4]</td>
+        <td class="VeryUnhealthy">General public will be noticeably affected. Sensitive groups should restrict outdoor activities.</td>
+      </tr>
+      <tr >
+        <td class="Hazardous">Hazardous [301+]</td>
+        <td class="Hazardous">Hazardous [250.5+]</td>
+        <td class="Hazardous">General public at high risk of experiencing strong irritations and adverse health effects. Should avoid outdoor
+        activities.</td>
+      </tr>
+    </table>
+  </div>
+  <div mat-dialog-actions class="cancelButton">
+    <button mat-button mat-dialog-close>Close</button>
+  </div>
+</div>
