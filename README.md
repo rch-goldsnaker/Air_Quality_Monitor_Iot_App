@@ -1,4 +1,4 @@
-# EPICIOAPP
+# Air_Quality_Monitor_Iot_App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
